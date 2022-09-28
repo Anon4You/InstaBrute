@@ -17,7 +17,7 @@ echo """
 """
 read -p "Instabrute: " xxx
 
-if [ $zzz = 1 ] ; then
+if [ $xxx = 1 ] ; then
 read -p "Enter username: " usrnm
 clear
 toilet -f smblock InstaBrute
