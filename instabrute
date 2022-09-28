@@ -22,7 +22,7 @@ read -p "Enter username: " usrnm
 clear
 toilet -f smblock InstaBrute
 echo ""
-instagram-py -u $usrnm -p .PSS
+instagram-py -u $usrnm -p .pss
 fi
 
 if [ $xxx = 2 ] ; then
