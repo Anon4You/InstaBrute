@@ -6,8 +6,7 @@ echo $'\e[32;1m'""
 toilet -f smblock "  InstaBrute"
 echo $'\e[0m'"                       Alienkrishn"
 echo $'\e[34m'"                       GitHub.com/Anon4You"
-echo $'\e[0m'
-echo """
+echo $'\e[0m'"""
 [1] Attack with default password
 [2] Attack with custom password
 [3] Create password
