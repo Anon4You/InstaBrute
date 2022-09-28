@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/python
-#
+# it's a modified version of cupp.py for termux
 #  [Program]
 #
 #  CUPP
