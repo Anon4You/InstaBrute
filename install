@@ -21,5 +21,5 @@ curl -LO https://raw.githubusercontent.com/Python-Fa/Password-List/master/Passwo
 mv Password-List.txt .pss > /dev/null 2>&1
 clear
 figlet Installed
-echo""
-echo"Now type "$'\e[32;1m'"instabrute"$'\e[0m'" to run the tool"
+echo ""
+echo "Now type "$'\e[32;1m'"instabrute"$'\e[0m'" to run the tool"
