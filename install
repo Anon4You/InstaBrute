@@ -5,6 +5,7 @@ command -v tor > /dev/null 2>&1 || { echo >&2 "tor not found !, Installing... to
 command -v toilet > /dev/null 2>&1 || { echo >&2 "toilet not found !, Installing... toilet"; pkg install toilet -y 1; }
 figlet setting up
 echo "please wait for a while... "
+pip install --upgrade pip
 pip install stem 
 pip install instagram-py 
 instagram-py -cc -dc 
@@ -22,5 +23,5 @@ mv Password-List.txt .pss
 clear
 figlet Installed
 echo "now lounch tor by typing tor"
-echo "Now type "$'\e[32;1m'"instabrute"$'\e[0m'" to run the tool"
+echo "type "$'\e[32;1m'"instabrute"$'\e[0m'" to run the tool"
 
