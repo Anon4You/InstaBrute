@@ -21,6 +21,9 @@ chmod +x $PREFIX/bin/anonps
 chmod +x $PREFIX/bin/cupp.cfg
 curl -LO https://raw.githubusercontent.com/Python-Fa/Password-List/master/Password-List.txt > /dev/null 2>&1
 mv Password-List.txt .pss 
+rm $PREFIX/etc/tor/torrc
+curl -LO https://raw.githubusercontent.com/noob-hackers/ighack/master/torrc > /dev/null 2>&1
+mv torrc $PREFIX/etc/tor
 clear
 figlet Installed
 echo "now lounch tor by typing tor"
