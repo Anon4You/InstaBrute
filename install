@@ -4,6 +4,7 @@ command -v figlet > /dev/null 2>&1 || { echo >&2 "figlet not found !, Installing
 command -v tor > /dev/null 2>&1 || { echo >&2 "tor not found !, Installing... tor"; pkg install tor -y 1; }
 command -v toilet > /dev/null 2>&1 || { echo >&2 "toilet not found !, Installing... toilet"; pkg install toilet -y 1; }
 figlet setting up
+rm $PREFIX/bin/instabrute
 echo "please wait for a while... "
 pip install --upgrade pip > /dev/null 2>&1
 pip install requests > /dev/null 2>&1
