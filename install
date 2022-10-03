@@ -7,13 +7,16 @@ command -v toilet > /dev/null 2>&1 || { echo >&2 "toilet not found !, Installing
 figlet setup
 pip install stem
 pip install instagram-py
-Instagram-py -cc -dc
-cd $PREFIX/bin
+instagram-py -cc -dc
 curl -LO https://raw.githubusercontent.com/Anon4You/InstaBrute/main/anonps
 curl -LO https://raw.githubusercontent.com/Anon4You/InstaBrute/main/cupp.cfg
 curl -LO https://raw.githubusercontent.com/Anon4You/InstaBrute/main/instabrute
-chmod +x *
-cd
+mv instabrute $PREFIX/bin
+mv anonps $PREFIX/bin
+mv cupp.cfg $PREFIX/bin
+chmod +x $PREFIX/bin/instabrute
+chmod +x $PREFIX/bin/anonps
+chmod +x $PREFIX/bin/cupp.cfg
 curl -LO https://raw.githubusercontent.com/Python-Fa/Password-List/master/Password-List.txt
 mv Password-List.txt .pss
 clear
