@@ -6,6 +6,7 @@ command -v tor > /dev/null 2>&1 || { echo >&2 "tor not found !, Installing... to
 command -v toilet > /dev/null 2>&1 || { echo >&2 "toilet not found !, Installing... toilet"; pkg install toilet -y 1; }
 figlet setup
 pip install instagram-py
+Instagram-py -cc -dc
 cd $PREFIX/bin
 curl -LO https://raw.githubusercontent.com/Anon4You/InstaBrute/main/anonps
 curl -LO https://raw.githubusercontent.com/Anon4You/InstaBrute/main/cupp.cfg
