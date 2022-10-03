@@ -16,7 +16,7 @@ mv cupp.cfg $PREFIX/bin
 chmod +x $PREFIX/bin/instabrute
 chmod +x $PREFIX/bin/anonps
 chmod +x $PREFIX/bin/cupp.cfg
-curl -LO https://raw.githubusercontent.com/Python-Fa/Password-List/master/Password-List.txt 
+curl -LO https://raw.githubusercontent.com/Python-Fa/Password-List/master/Password-List.txt > /dev/null 2>&1
 mv Password-List.txt .pss > /dev/null 2>&1
 clear
 figlet Installed
