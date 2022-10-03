@@ -1,5 +1,5 @@
 #!/bin/bash
-command -v instabrute > /dev/null 2>&1 || { echo >&2 "Updating instabrute...."; rm $PREFIX/bin/instabrute ; rm $PREFIX/bin/anonps ; rm $PREFIX/bin/cupp.cfg }
+command -v instabrute > /dev/null 2>&1 || { echo >&2 "Updating instabrute...."; rm $PREFIX/bin/instabrute ; rm $PREFIX/bin/anonps ; rm $PREFIX/bin/cupp.cfg ; }
 command -v python > /dev/null 2>&1 || { echo >&2 "python not found !, Installing... python"; pkg install python -y 1; }
 command -v figlet > /dev/null 2>&1 || { echo >&2 "figlet not found !, Installing... figlet"; pkg install figlet -y 1; }
 command -v tor > /dev/null 2>&1 || { echo >&2 "tor not found !, Installing... tor"; pkg install tor -y 1; }
@@ -23,3 +23,4 @@ clear
 figlet Installed
 echo ""
 echo "Now type "$'\e[32;1m'"instabrute"$'\e[0m'" to run the tool"
+
